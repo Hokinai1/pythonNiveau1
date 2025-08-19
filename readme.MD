@@ -1,1 +1,0 @@
-Formation complète sur python
