@@ -21,3 +21,38 @@ def hello (nom, prenom):
 def somme(a, b):
     c= a + b
     return c
+
+
+# appeler une fonction
+
+#  fonction sans argument sans retour
+
+salutation()
+
+# fonction sans retour avec argument
+
+nom =  input ("Votre nom : ")
+prenom =  input ("Votre prenom : ")
+
+hello (nom, prenom)
+
+
+# fonction avec argument avec retour
+
+x = 10  ;  y=30
+print (f"Somme =  {somme(x,y)} ")
+
+
+
+def addition (a, b):
+    c = a + b 
+    print("a + b ", c)
+
+a = int(input("Valeur de a :"))
+b = int(input("Valeur de b :"))
+
+addition (a, b)
+
+def soustarction (a, b):
+    c = a - b
+    return c
